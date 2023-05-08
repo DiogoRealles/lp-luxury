@@ -1,0 +1,38 @@
+@use './variables' as *;
+
+
+.products{
+  position: relative;
+}
+.products__imgHolder{
+  position: relative;
+  width: 70%;
+  float: right;
+}
+.products__imgHolder img{
+  width: 100%;
+  height: auto;
+}
+.products__contentHolder{
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  width: 40%;
+}
+.products__list{
+  list-style: none;
+}
+.products__item{
+  position: relative;
+  width: inherit;
+}
+.products__link{
+  color: $grey;
+  text-decoration: none;
+   text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 22px;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+}

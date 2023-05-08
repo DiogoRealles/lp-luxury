@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+
+.navbar{
+  background: $white;
+  position: relative;
+  padding: 20px 0;
+}
+
+#btn__mobile{
+  display: none;
+}
+.nav__menu{
+  display: flex;
+}
+.nav__item{
+  list-style: none;
+}
+.nav__link{
+  text-decoration: none;
+  color: $black;
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}

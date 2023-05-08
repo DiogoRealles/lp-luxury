@@ -1,0 +1,144 @@
+@use './variables' as *;
+
+
+@media only screen and (max-width: 973px){
+  .flex-column{
+    flex-direction: column;
+  }
+  .services__card{
+    width: 100% !important;
+    margin: 20px 0 !important;
+  }
+  .services__card:first-child, .services__card:last-child{
+    margin: 20px 0 !important;
+  }
+}
+
+
+@media only screen and (max-width: 846px){
+  .flex-column{
+    flex-direction: column;
+  }
+  .card{
+    margin: 20px 0 !important;
+  }
+  .card__img{
+    flex: 1 1 100%;
+  }
+  .card__text--left{
+    flex: 1 1 100%;
+    left: 0;
+    order: 1;
+  }
+  .card__text--right{
+    flex: 1 1 100%;
+    right: 0;
+  }
+  .card__title, .products__title{
+    font-size: 22px;
+  }
+  .products__imgHolder{
+    width: 100%;
+    margin-bottom: 30px;
+    float: none;
+  }
+  .products__contentHolder{
+    width: 100%;
+    position: inherit;
+    top: auto;
+    transform: translate(0%, 0%);
+  }
+  /* .modules{
+    padding-top: 360px;
+  } */
+}
+
+
+@media only screen and (max-width: 500px){
+  .header{
+    height: initial;
+  }
+  .navbar{
+    padding: 0;
+  }
+  .navbar__logo{
+    font-size: 40px;
+  }
+  .nav__menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    right: 0;
+    background: $white;
+    height: 0;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .nav.active .nav__menu{
+    height: calc(100vh - 92px);
+    visibility: visible;
+    overflow: auto;
+  }
+  .nav__item {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .nav__link{
+    padding: 10px 0;
+    margin: 0 10px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+  }
+  #btn__mobile{
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    background: $white;
+    cursor: pointer;
+    gap: 10px;
+  }
+  .hamburger{
+    width: 20px;
+    border-top: 2px solid;
+    color: $black;
+  }
+  .hamburger::before, .hamburger::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: all .3s ease-in-out;
+    position: relative;
+  }
+  .nav.active .hamburger{
+    border-top-color: transparent;
+  }
+  .nav.active .hamburger::before{
+    transform: rotate(135deg);
+  }
+  .nav.active .hamburger::after{
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  .hero__header{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero__header h1 {
+    flex: 1 1 100%;
+    font-size: 32px;
+  }
+  .hero__img{
+    width: 100%;
+    top: 250px;
+  }
+  .hero .container{
+    width: 100%;
+  }
+}
