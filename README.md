@@ -16,7 +16,7 @@
 
   # Aprendizados
   Extrair a paleta de cores da brand da empresa e utiliza no projeto. <br />
-  Trabalhar com cliente de alt o nível.
+  Trabalhar com cliente de alto nível.
   <br /><br />
 
   # <b>[Ver online 🡽](https://header-01.softwarealles.repl.co/)</b>
