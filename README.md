@@ -2,7 +2,7 @@
 
   # Luxury
   
-  <p>Landin Page site institucional de uma imobilizaria de casasresidências de luxo</p>
+  <p>Landing Page site institucional de uma imobiliária de residências de luxo</p>
   
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"> &nbsp;
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"> &nbsp;
