@@ -14,12 +14,28 @@
 
 <div>
 
-  # Aprendizados
+  # ⚡ Overview
+  <b>Luxury</b>: É uma Landing page para para uma imobiliária fictícia de residências de alto padrão.<br />
+  Foquei em manter simplicidade e com conceitos de modernidade arquitetural, uma estrutura sólida e disruptiva.
+   
+  ## Features:
+  - Manipulação de DOM
+  - Totalmente Responsivo
+  - SEO otimizado
+  - W3C validação
+  - Animações suaves
+  - Animações de entradas com lib AOS JS.
+  - Página com carregamento rápido
+  - Página Home | Styleguide
+  - Layout Clean e Moderno
+
+  # 📚 Aprendizados
   Extrair a paleta de cores da brand da empresa e utiliza no projeto. <br />
   Trabalhar com cliente de alto nível.
   <br /><br />
-
-  # <b>[Ver online 🡽](https://header-01.softwarealles.repl.co/)</b>
+  
+  # 🚀 Deploy
+  [Ver online](https://header-01.softwarealles.repl.co/)
 
   ## Clone
 
